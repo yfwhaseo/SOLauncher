@@ -1,0 +1,273 @@
+{
+  "en": {
+    "TOOLTIP_TITLE_1": "INSTALL THE GAME",
+    "TOOLTIP_DESCR_1": "First time here? Use the installer to install the game.",
+
+    "INTERNET_TOASTT": "No Internet Connection",
+    "RSS_URL": "http://tacos.yourfunworld.com/soeziliifeed/",
+    "TW_URL": "https://twitter.com/watch_ezilii",
+    "WEB_URL": "http://ezilii.com",
+
+    "PLAY": "PLAY",
+    "HOME": "HOME",
+    "INSTALLER": "INSTALLER",
+    "DOWNLOADS": "DOWNLOADS",
+    "SETTINGS": "SETTINGS",
+    "ABOUT": "ABOUT",
+
+    "DYK": "Did you know?",
+    "READ_MORE": "READ MORE",
+
+    "MODAL_INSTALLER": "Installer",
+
+    "MODAL_INSTALL_UPDATE": "Update available",
+    "MODAL_INSTALL_UPDATE_DESCR_1": "There is a new version (",
+    "MODAL_INSTALL_UPDATE_DESCR_2": ") available to install. Would you like to update?",
+    "MODAL_UPDATE": "Update",
+
+    "MODAL_UPDATE_X": "Update",
+    "X_AVAILABLE": "available!",
+
+    "MODAL_UPDATE_COMPLETED": "SOEzilii Launcher has updated",
+    "MODAL_UPDATE_COMPLETED_DESCR": "The launcher has been updated and restarted successfully.",
+
+    "MODAL_UPDATE_DESCR": "A new update is available to download. Click \"UPDATE\" on the dialog to update.",
+
+    "MODAL_NOT_AVAILABLE": "Unavailable",
+    "MODAL_NOT_AVAILABLE2": "Hold on!",
+
+    "MODAL_UPDATE_CHECK_FAILED": "Failed check",
+    "MODAL_UPDATE_CHECK_FAILED_DESCR": "Network error trying to retrieve latest launcher version. Try again later.",
+
+    "MODAL_FIRSTTIME": "Please run SOEzilii for the first time in order to change this setting (just open it, wait a minute, and close it).",
+
+    "MODAL_INS_PROGRESS": "There is already an installation in progress. Wait for these to finish in order to continue.",
+    "MODAL_NOT_AVAILABLE_DESCR_1": "You need to install",
+    "MODAL_NOT_AVAILABLE_DESCR_2": "before installing this program.",
+
+    "MODAL_INSTALLATION": "Installation",
+    "MODAL_INSTALLATION_DESCR": "This will install OpenAL, .NET Framework, The Sims Online and SOEzilii in this order.",
+
+    "MODAL_START": "Start installation",
+    "MODAL_USE_IT": " Yes, use it",
+
+    "MODAL_LATER": "Later",
+
+    "MODAL_RUNNING": "SOEzilii.exe running",
+    "MODAL_RUNNING_DESC": "SOEzilii is already running. Close all SOEzilii.exe tasks (Check Task Manager).",
+
+    "MODAL_INSTALL": "Install",
+    "MODAL_INSTALL_DESCR_1": "This will install the",
+    "MODAL_INSTALL_DESCR_2": "component on your computer. Are you sure you want to install it?",
+
+    "MODAL_INSTALL_FOLDER": "Install in this folder",
+
+    "MODAL_REINSTALL": "Reinstall?",
+    "MODAL_CONTINUE": "Continue",
+
+    "MODAL_NEGATIVE": "Uh oh!",
+    "MODAL_NEED_FSOTSO": "You need SOEzilii and The Sims Online installed to use this feature. Changes were not saved.",
+
+    "MODAL_NEED_FSOTSO_PLAY": "You need SOEzilii and The Sims Online installed to launch the game.",
+    "MODAL_GOTO_INSTALLER": "Go to installer",
+
+    "MODAL_CLOSED_FREESO": "Closed SOEzilii",
+    "MODAL_CLOSED": "Closed",
+    "MODAL_CLOSED_2": "SOEzilii task(s) to continue the installation.",
+
+    "MODAL_LAUNCH_UPDATING": "You shouldn't launch SOEzilii right now because it is updating.",
+
+    "MODAL_REINSTALL_DESCR_X": "We have detected that you already have this program installed on your system. Would you like to reinstall",
+    "MODAL_CANCEL": "Close",
+
+    "MODAL_NO_INTERNET": "Where's your internet?",
+    "MODAL_NEED_INTERNET_SINGLE": "You need internet access to install this program because it is downloaded from the internet.",
+
+    "MODAL_OK": "Gotcha",
+    "MODAL_OK2": "Okay",
+
+    "MODAL_NOT_COMPLETE": "Couldn't complete",
+    "MODAL_FSO_LANG_ERR": "Couldn't move the necessary language files to the SOEzilii directory.",
+    "MODAL_TSO_LANG_ERR": "Couldn't move the necessary language files to the Sims Online directory.",
+    "MODAL_SUCCESS": "Hurray!",
+    "MODAL_TTS_DISABLED": "Too much...?",
+    "MODAL_TTS_ENABLED_TEXT": "SOEzilii will now read back to you every line in the chat next time you launch the game.",
+    "MODAL_TTS_DISABLED_TEXT": "You have disabled SOEzilii's text to speech feature.",
+    "MODAL_INI_ERR": "Couldn't edit the SOEzilii/Content/config.ini file.",
+    "MODAL_LANG_SUCCESS": "SOEzilii will now be displayed in your language next time you launch the game.",
+
+    "MODAL_INS_COMPLETE": "Installation completed!",
+    "MODAL_INS_COMPLETE_DESCR": "has finished installing successfully.",
+
+    "MODAL_INS_FAILED": "Installation failed!",
+    "MODAL_MODIFIED_PATH": "Modified path",
+    "MODAL_MODIFIED_PATH_DESCR": "The installation path for this program has been changed to a folder where it is already installed.",
+
+    "MODAL_DETECTED_THAT_1": "We have detected that",
+    "MODAL_DETECTED_THAT_2": "is already installed in this folder. Do you want to set this folder as your game installation?",
+
+    "MODAL_INS_FAILED_DESCR_1": "has failed to install.",
+
+    "MODAL_NEED_INTERNET_FULL": "You need internet access to do a full installation because one or more programs are downloaded from the internet.",
+
+    "HOME_DESCR": "Last-minute SOEzilii news and Twitter updates",
+    "RETICULATING": "Reticulating Splines...",
+    "INTERNET_REQ": "Internet connection required",
+
+    "TOOLTIP_TITLE_2": "START INSTALLING",
+    "TOOLTIP_DESCR_2": "Install everything if it is your first time playing SOEzilii.",
+    "FULL_INSTALL_BTN": "COMPLETE INSTALLATION",
+
+    "INSTALLER_DESCR": "Click on an item to install it",
+    "INSTALLER_FSO_TITLE": "SOEzilii Game",
+    "INSTALLER_FSO_DESCR": "Free Simulator Online",
+    "INSTALLER_TSO_TITLE": "The Sims Online",
+    "INSTALLER_TSO_DESCR": "The Sims Online Client",
+    "INSTALLER_OAL_TITLE": "OpenAL",
+    "INSTALLER_OAL_DESCR": "Cross Platform 3D Audio",
+    "INSTALLER_NET_TITLE": ".NET Framework 4.6",
+    "INSTALLER_NET_DESCR": "For Microsoft Windows",
+
+    "SETTINGS_DESCR": "Personalize your game and launcher",
+    "SETTINGS_LAUNCHER_H1": "Launcher Settings",
+    "SETTINGS_DL": "Direct Launch",
+    "SETTINGS_DL_HINT": "The launcher will run the game automatically without showing the actual launcher (the icon will be in the tray).",
+    "SETTINGS_ENABLED": "Enabled",
+    "SETTINGS_DISABLED": "Disabled",
+    "SETTINGS_AU": "Auto-Download updates",
+    "SETTINGS_AU_HINT": "Let the launcher auto-download and install launcher updates for you. You will get a notification when it happens.",
+    "SETTINGS_THEME": "Launcher Theme",
+    "SETTINGS_DEFAULT": "Default",
+    "SETTINGS_THEME_HINT": "Choose a style for your launcher.",
+    "SETTINGS_DN": "Live Desktop Notifications",
+    "SETTINGS_DN_HINT": "Enable live desktop notifications sent by SOEzilii Staff about events and special news.",
+    "SETTINGS_GAME_H1": "In-Game Settings",
+    "SETTINGS_GM": "Graphics Mode",
+    "SETTINGS_GM_HINT": "If your computer has low specifications, DirectX will help. If not, always use OpenGL.",
+    "SETTINGS_LANG": "In-game language",
+    "SETTINGS_LANG_HINT": "Choose the language for your game. More languages available soon.",
+    "SETTINGS_TTS": "Text To Speech",
+    "SETTINGS_TTS_HINT": "Enable TTS to listen to all the text typed in game read back to you in your system's default TTS voice.",
+
+    "DOWNLOADS_DESCR": "View current and finished downloads",
+    "DOWNLOADS_EMPTY": "No downloads finished or in progress!",
+
+    "MODAL_UPDATE_FAILED": "Update failed",
+    "MODAL_UPDATE_FAILED_DESCR": "Network error while downloading the latest launcher update. Try again later.",
+    "MODAL_UPDATE_FAILED_MOVE_DESCR": "Could not install the update package. Missing permissions?",
+
+    "MODAL_UPDATE_COMPLETE": "Update completed!",
+    "MODAL_UPDATE_COMPLETE_DESCR": "The launcher has been updated and will restart in 5 seconds.",
+
+    "ABOUT_DESCR": "Information about SOEzilii",
+    "ABOUT_LAUNCHER_VERSION": "Launcher Version",
+    "ABOUT_CHECK": "Check for updates",
+    "ABOUT_INTERNET": "Internet connection required to update",
+    "ABOUT_FAQ_1_H1": "What is SOEzilii?",
+    "ABOUT_FAQ_1_TEXT": "Play Sims online!",
+    "ABOUT_FAQ_2_H1": "Is SOEzilii legal?",
+    "ABOUT_FAQ_2_TEXT": "Yes. SOEzilii is a reimplementation of the game engine of Electronic Arts' The Sims Online (TSO), using C# and Monogame. It consists of 100% original code reverse-engineered to replicate the gameplay of TSO. SOEzilii is merely a game engine, thus any content that resembles the graphics or sound effects of TSO must be provided by the legally-obtained software of the user. We neither distribute, nor alter any intellectual property belonging to Electronic Arts, Inc. We use our own original artwork to promote SOEzilii, and we maintain the project as non-commercial.",
+    "ABOUT_FAQ_3_H1": "Will SOEzilii always be free-to-play?",
+    "ABOUT_FAQ_3_TEXT": "Yes, it will always be free in its entirety.",
+
+    "TRAY_LABEL_1": "Launch SOEzilii",
+    "TRAY_LABEL_2": "Exit",
+
+    "MINIMIZE_REMINDER": "The launcher is still available in the tray. Right click the icon for more options.",
+
+    "TOAST_REGISTRY": "Updating installed programs...",
+    "TOAST_TTS_MODE": "Editing TTS Mode...",
+    "TOAST_LANGUAGE": "Changing language...",
+    "TOAST_SETTINGS": "Saving settings...",
+    "TOAST_LAUNCHING": "Launching SOEzilii...",
+    "TOAST_CHPATH": "Changing path...",
+    "TOAST_WAITING": "Waiting for user input...",
+    "TOAST_RUNNING_CHECK": "Checking if SOEzilii is running...",
+    "TOAST_CHECKING_UPDATES": "Checking for updates...",
+    "TOAST_DL_UPDATE": "Downloading update...",
+    "TOAST_EX_UPDATE": "Extracting update...",
+    "TOAST_RE_UPDATE": "Restarting launcher...",
+
+    "INSTALLATION_FINISHED": "Installation has finished successfully.",
+    "FSO_FAILED_INSTALLATION": "Failed to install SOEzilii. Try again later.",
+    "TSO_FAILED_INSTALLATION": "Failed to install The Sims Online. Please try again later.",
+
+    "FSO_NETWORK_ERROR": "There was a problem downloading the required files due to a network error. Please try again later.",
+    "EXTRACTING": "Extracting",
+    "EXTRACTING_CLIENT_FILES": "Extracting client files...",
+    "EXTRACTING_FAILED": "Extraction failed with error code",
+
+    "DL_CLIENT_FILES": "Downloading client files...",
+    "X_OUT_OF_X": "out of",
+
+    "X_FILES_OUT_OF_X": "files out of",
+
+    "INS_OAL": "Installing OpenAL...",
+    "INS_WINDOW": "Please follow the instructions in the window.",
+    "INS_OAL_WINDOW": "The OpenAL standalone installer has been launched.",
+
+    "INS_NET": "Installing .NET Framework...",
+    "INS_NET_WINDOW": "The official Microsoft Web Installer has been launched.",
+
+    "INS_TSO": "Installing The Sims Online...",
+    "INS_DLEX": "Downloading and extracting necessary files.",
+    "INS_INFO": "For more detailed progress go to the <strong style='cursor:pointer' onclick='FSOLauncher.changePage(\"downloads\")'>downloads</strong> tab.",
+
+    "INS_FSO": "Installing SOEzilii...",
+
+    "INS_FINISHED": "Installation finished!",
+    "INS_PLAY": "You can now play SOEzilii.",
+    "INS_PLAY_CLICK": "Click the \"Play\" button to start the game.",
+
+    "INS_ERROR": "Installation error!",
+    "INS_ERROR_DESCR": "There was a problem installing the game.",
+    "INS_CLOSE": "This window will close in 5 seconds.",
+
+    "NETWORK_ERR_DL_X": "A network error downloading",
+    "X_FILES_OCURRED": "files occurred. Please use a stable internet connection and try again. Your progress has been saved.",
+
+    "TSO_REGISTRY_EDIT_FAIL": "Failed creating The Sims Online registry entry.",
+    "TSO_INSTALLDIR_FAIL": "Failed inserting the InstallDir registry value.",
+
+    "TIP1": "SOEzilii is based off another game engine.",
+    "TIP2": "",
+    "TIP3": "",
+    "TIP4": "",
+    "TIP5": "",
+    "TIP6": "",
+    "TIP7": "",
+    "TIP8": "",
+    "TIP9": "",
+    "TIP10": "",
+    "TIP11": "",
+    "TIP12": "",
+    "TIP13": "",
+
+    "AFTER_X": "After Clicking X",
+    "STAY_TRAY": "Stay in icon tray",
+    "EXIT_LAUNCHER": "Exit launcher",
+    "AFTER_X_HINT": "The launcher can stay in the icon tray to make sure you don't miss any important live notifications.",
+
+    "TD_MODE": "3D Mode",
+    "TD_MODE_HINT": "Enable 3D Mode. Disabling this feature will take the game back to 2D.",
+
+    "ABOUT_FAQ_4_H1": "How do I launch Developer Mode?",
+    "ABOUT_FAQ_4_TEXT": "Right-click the Play button.",
+
+    "ABOUT_FAQ_5_H1": "Need help?",
+    "ABOUT_FAQ_5_TEXT": "DM us on <a href='https://twitter.com/watch_ezilii' target='_blank'>Twitter</a> or join <a href='https://discord.gg/ezilii' target='_blank'>Discord</a>",
+
+    "MODAL_START_VOLCANIC": "Start Volcanic?",
+    "MODAL_START_VOLCANIC_DESC": "By right clicking the Play button FSO.IDE will start. Only use this if you are a developer.",
+    "MODAL_START_VOLCANIC_OK": "Start Volcanic",
+
+    "MODAL_FAILED_LAUNCH": "Failed to launch",
+    "MODAL_FAILED_LAUNCH_DESC": "SOEzilii.exe is somehow missing from the SOEzilii folder. This might be due to antivirus software. Please reinstall FreeSO.",
+
+    "MODAL_GAME_AUTORECOVERED": "Game Auto-Recovered",
+    "MODAL_GAME_AUTORECOVERED_DESC": "SOEzilii.exe was not present and has been restored. You might need to update again!",
+    "NOTIFICATIONS": "NOTIFICATIONS",
+    "NOTIFICATIONS_DESC": "Keep up with past SOEzilii desktop notifications",
+    "NOTIFICATIONS_NONE": "No notifications received yet"
+  },
+}
