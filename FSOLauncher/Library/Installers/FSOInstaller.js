@@ -21,10 +21,8 @@ class FSOInstaller {
     this.dl = new (require("../Download"))();
     this.dl.add({
       alias: "artifacts.zip",
-      // Grabbing from servo.freeso.org. Since the client auto-updates itself, this is
-      // the preferred option, since it also isn't the full size (only about 15MB opposed to the full 60MB).
       origin:
-        "http://servo.freeso.org/guestAuth/repository/download/FreeSO_TsoClient/.lastSuccessful/client-<>.zip",
+        "http://tacos.yourfunworld.com/latestezilii.zip",
       destination: "temp/",
     });
   }
@@ -38,7 +36,7 @@ class FSOInstaller {
   createProgressItem(Message, Percentage) {
     this.FSOLauncher.View.addProgressItem(
       "FSOProgressItem" + this.id,
-      "FreeSO Client",
+      "SOEzilii Client",
       "Installing in " + this.path,
       Message,
       Percentage
@@ -141,7 +139,7 @@ class FSOInstaller {
     this.createProgressItem(global.locale.FSO_FAILED_INSTALLATION, 100);
     this.FSOLauncher.View.stopProgressItem("FSOProgressItem" + this.id);
     this.FSOLauncher.removeActiveTask("FSO");
-    Modal.showFailedInstall("FreeSO", ErrorMessage);
+    Modal.showFailedInstall("SOEzilii", ErrorMessage);
     return Promise.reject(ErrorMessage);
   }
 
@@ -241,11 +239,11 @@ class FSOInstaller {
       const ws = require("windows-shortcuts");
 
       ws.create(
-        "%UserProfile%\\Desktop\\FreeSO.lnk",
+        "%UserProfile%\\Desktop\\SOEzilii.lnk",
         {
-          target: this.path + "\\FreeSO.exe",
+          target: this.path + "\\SOEzilii.exe",
           workingDir: this.path,
-          desc: "Play FreeSO online",
+          desc: "Play SOEzilii",
           runStyle: ws.MAX,
         },
         err => {
@@ -262,7 +260,7 @@ class FSOInstaller {
    */
   isInstalledInPath() {
     return new Promise((resolve, reject) => {
-      require("fs").stat(this.path + "\\FreeSO.exe", err => {
+      require("fs").stat(this.path + "\\SOEzilii.exe", err => {
         resolve(err == null);
       });
     });

@@ -81,19 +81,6 @@ class Events {
   }
 
   /**
-   * Fires when the client receives a Socket.io request.
-   *
-   * @param {any} e Error (if any)
-   * @param {any} Response The actual response.
-   * @memberof Events
-   */
-  onSocketMessage(e, Response) {
-    if (this.conf.Launcher.DesktopNotifications === "1") {
-      Modal.sendNotification("FreeSO Announcement", Response[0], Response[1]);
-    }
-  }
-
-  /**
    * When the user wants to install a Component.
    *
    * @param {any} e Error (if any)

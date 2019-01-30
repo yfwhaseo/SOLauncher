@@ -277,7 +277,7 @@ class FSOLauncher extends Events {
 
       let options = {};
 
-      options.host = "5.189.177.216";
+      options.host = "tacos.yourfunworld.com";
       options.path = "/RemeshInfo.php";
 
       const request = http.request(options, res => {
