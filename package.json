@@ -1,11 +1,11 @@
 {
   "name": "fsolauncher",
   "version": "1.4.8",
-  "description": "Install, play, and configure FreeSO easily",
+  "description": "Install, play, and configure SOEzilii easily",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . fsolauncher --asar --platform=win32 --arch=all --overwrite --electron-version=3.0.3 --version-string.FileDescription='FreeSO Launcher' --out ../../release",
+    "build": "electron-packager . fsolauncher --asar --platform=win32 --arch=all --overwrite --electron-version=3.0.3 --version-string.FileDescription='SOEzilii Launcher' --out ../../release",
     "builddarwin": "electron-packager . fsolauncher --asar --platform=darwin --arch=all --overwrite --electron-version=3.0.3 --version-string.FileDescription='FreeSO Launcher' --out ../../release",
     "buildasar": "asar pack . \"../../release/asar/app.asar\" --unpack-dir \"{export,FSOLauncher_UI/FSOLauncher_Images,FSOLauncher_UI/FSOLauncher_Sounds,FSOLauncher_UI/FSOLauncher_Fonts}\""
   },
@@ -13,7 +13,7 @@
     "freeso",
     "launcher"
   ],
-  "author": "FreeSO.org",
+  "author": "Ezilii.com",
   "devDependencies": {
     "electron-reload": "^1.2.5"
   },
