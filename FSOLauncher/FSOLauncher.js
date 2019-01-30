@@ -272,43 +272,6 @@ class FSOLauncher extends Events {
   }
 
   getRemeshData() {
-    return new Promise(async (resolve, reject) => {
-      const http = require("http");
-
-      let options = {};
-
-      options.host = "tacos.yourfunworld.com";
-      options.path = "/RemeshInfo.php";
-
-      const request = http.request(options, res => {
-        let data = "";
-
-        res.on("data", chunk => {
-          data += chunk;
-        });
-
-        res.on("end", () => {
-          try {
-            let j = JSON.parse(data);
-            this.remeshInfo.location = j.Location;
-            this.remeshInfo.version = j.Version;
-            resolve(j);
-          } catch (e) {
-            reject(e);
-          }
-        });
-      });
-
-      request.setTimeout(30000, () => {
-        reject("Timed out");
-      });
-
-      request.on("error", e => {
-        reject(e);
-      });
-
-      request.end();
-    });
   }
 
   /**
@@ -318,44 +281,6 @@ class FSOLauncher extends Events {
    * @memberof FSOLauncher
    */
   getLauncherData() {
-    return new Promise(async (resolve, reject) => {
-      const http = require("http");
-      const os = require("os");
-
-      let options = {};
-
-      options.host = "tacos.yourfunworld.com";
-      options.path =
-        "/SOLauncher.php?os=" + os.release() + "&version=" + global.version;
-
-      const request = http.request(options, res => {
-        let data = "";
-
-        res.on("data", chunk => {
-          data += chunk;
-        });
-
-        res.on("end", () => {
-          try {
-            let j = JSON.parse(data);
-            this.updateLocation = j.Location;
-            resolve(j);
-          } catch (e) {
-            reject(e);
-          }
-        });
-      });
-
-      request.setTimeout(30000, () => {
-        reject("Timed out");
-      });
-
-      request.on("error", e => {
-        reject(e);
-      });
-
-      request.end();
-    });
   }
 
   async checkRemeshInfo() {

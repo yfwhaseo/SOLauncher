@@ -101,8 +101,8 @@ class CompleteInstaller {
       100
     );
     Modal.sendNotification(
-      "FreeSO Launcher",
-      "FreeSO has finished installing and is ready to go!"
+      "SOEzilii Launcher",
+      "SOEzilii has finished installing and is ready to go!"
     );
     setTimeout(() => {
       this.FSOLauncher.View.fullInstallProgressItem();

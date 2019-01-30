@@ -43,7 +43,6 @@ class Events {
     onCheckUpdates.onFire(this.onCheckUpdates.bind(this));
     onInstallUpdate.onFire(this.onInstallUpdate.bind(this));
     onPlayVolcanic.onFire(this.onPlayVolcanic.bind(this));
-    onSocketMessage.onFire(this.onSocketMessage.bind(this));
     onConsoleLog.onFire(this.onConsoleLog.bind(this));
     onFTPTSO.onFire(this.onFTPTSO.bind(this));
     onFTPTSOResponse.onFire(this.onFTPTSOResponse.bind(this));

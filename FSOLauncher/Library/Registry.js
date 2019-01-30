@@ -27,7 +27,7 @@ class Registry
 
 			Promises.push(
 				Registry.get(
-					'FSO', '\\SOFTWARE\\Rhys Simpson\\FreeSO'
+					'FSO', '\\SOFTWARE\\Rhys Simpson\\SOEzilii'
 				)
 			);
 
@@ -186,7 +186,7 @@ class Registry
 
             let Key = new Registry({
                 hive: Registry.HKLM,
-                key: "\\SOFTWARE\\Rhys Simpson\\FreeSO"
+                key: "\\SOFTWARE\\Rhys Simpson\\SOEzilii"
             });
 
             Key.keyExists((err, exists) =>

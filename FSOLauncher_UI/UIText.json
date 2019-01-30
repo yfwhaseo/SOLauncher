@@ -262,7 +262,7 @@
     "MODAL_START_VOLCANIC_OK": "Start Volcanic",
 
     "MODAL_FAILED_LAUNCH": "Failed to launch",
-    "MODAL_FAILED_LAUNCH_DESC": "SOEzilii.exe is somehow missing from the SOEzilii folder. This might be due to antivirus software. Please reinstall FreeSO.",
+    "MODAL_FAILED_LAUNCH_DESC": "SOEzilii.exe is somehow missing from the SOEzilii folder. This might be due to antivirus software. Please reinstall SOEzilii.",
 
     "MODAL_GAME_AUTORECOVERED": "Game Auto-Recovered",
     "MODAL_GAME_AUTORECOVERED_DESC": "SOEzilii.exe was not present and has been restored. You might need to update again!",
